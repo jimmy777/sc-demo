@@ -21,6 +21,7 @@
         <module>sc-base</module>
         <module>sc-impl</module>
         <module>sc-start</module>
+        <module>sc-core</module>
     </modules>
 
     <dependencyManagement>

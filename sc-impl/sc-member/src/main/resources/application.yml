@@ -1,0 +1,27 @@
+# 服务端口号
+server:
+  port: 7703
+
+# 服务注册名
+spring:
+  application:
+    name: member-server
+  datasource:
+    url: jdbc://10.248.190.128:3306/ydapp?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    name: root
+    password: Erg@2022
+
+# 注册中心地址
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:7001/eureka/
+
+# 数据库配置
+
+#spring:
+#  datasource:
+#    username: root
+#    password: Erg@2022
+#    type: com.alibaba.druid.pool.DruidDataSource

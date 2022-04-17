@@ -13,6 +13,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>uaa-provider</module>
+        <module>sc-phone</module>
+        <module>sc-member</module>
     </modules>
 
     <dependencies>
